@@ -36,7 +36,7 @@ public class BusinessAppStandalone
     }
     
     public static ResourceConfig createApp() {
-    	System.out.println("Starting StorageService REST services...");
+    	System.out.println("Starting Business Service REST services...");
         return new BusinessAppConfig();
     }
 }
